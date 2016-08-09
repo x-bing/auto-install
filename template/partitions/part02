@@ -1,0 +1,10 @@
+## Partition disk
+
+zerombr
+clearpart --all --initlabel
+part /boot --fstype=ext4 --size=200
+part pv.1 --grow --size=1
+volgroup vg_sys --pesize=4096 pv.1
+logvol swap --name=lv_swap --vgname=vg_sys --size=1000
+logvol /var --fstype=ext4 --name=lv_var --vgname=vg_sys --size=1000
+logvol / --fstype=ext4 --name=lv_root --vgname=vg_sys --size=1  --grow
