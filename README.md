@@ -1,8 +1,8 @@
 This project is based linux pxe install.
 --------------------------------
-auth: Frank Zhang(张国华）
-      Wechat： @小兵 42376123
-      Email:   18610041259@qq.com
+Auth: Frank Zhang(张国华）</br>
+      Wechat： @小兵 42376123 </br>
+      Email:   18610041259@qq.com </br>
       
 Step overview:
 ----------
