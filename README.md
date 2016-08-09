@@ -1,4 +1,3 @@
-Memo：
 This project is based linux pxe install.
 
 Step overview:
