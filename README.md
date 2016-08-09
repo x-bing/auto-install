@@ -1,4 +1,5 @@
 This project is based linux pxe install.
+--------------------------------
 
 Step overview:
 Setup environment -> Modify hostlist.csv -> Run preinstall.sh -> Install your host by PXE boot
